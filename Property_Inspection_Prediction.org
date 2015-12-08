@@ -159,10 +159,16 @@
   https://en.wikipedia.org/wiki/Gradient_boosting, because is
   technique that I was not familiar with. The GBM combines weaker
   classifiers in order to get a single strong classifier. In each
-  interaction the $F_{k+1}(\bold{x}) = F_{k}(\bold{x})
-  +h_{k}(\bold{x})$ is improved by the function $h_k(\bold{x})$. Like
+  interaction the 
+
+  \begin{equation}
+  F_{k+1}(\bold{x}) = F_{k}(\bold{x}) + h_{k}(\bold{x}) \nonumber
+  \end{equation}
+
+
+  is improved by the function $h_k(\bold{x})$. Like
   any other boosting methods, GBM learn by correcting its predecessor
-  $F_k(\nold{x})$.
+  $F_k(\bold{x})$.
   
   We chose XGBoost which is a parallel implementation of GBM, because
   it is very popular in Kaggle competitions and allow us run GBM
@@ -177,30 +183,6 @@
   * Feasibility
     * Customized objective and evaluation function
     * Tunable parameters
-
-
-  We worked only with Gradient Boosting
-  https://en.wikipedia.org/wiki/Gradient_boosting, because is
-  techinique that I was not familiar with. The GBM combine weaker
-  classifier in order to get a single strong classifier. In each
-  interaction the $F_{k+1}(\bold{x}) = F_{k}(\bold{x}) +
-  h_{k}(\bold{x})$ is improved by the fucntion $h_k(\bold{x})$. Like
-  any other boosting methods, GBM learn by correcting its predecessor
-  $F_k(\nold{x})$.
-
-  We chose XGBoost which is a parallel implementation of GBM, because
-  it is very popular in Kaggle competitions and allow us to run GBM
-  algorithms in parallel. The main points are summarized:
-  
-  * Easy to use
-    * Easy to install (local and remote machine)
-    * Easy to use in R and Python
-  * Efficiency
-    * Can explore parallelism
-    * Can run in clusters and multithreads systems
-  * Feasibility
-    * Customized objetive and evaluation function
-    * Tunalble parameters
        
   The parameters that we investigated during the competition were:
 
