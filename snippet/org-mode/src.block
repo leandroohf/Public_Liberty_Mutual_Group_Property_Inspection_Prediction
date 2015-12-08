@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+#contributor : leandro <leandroohf@gmail.com>
+#key : <sb
+#name : src.block
+# --
+#+name: ${1:}
+#+begin_src R :tangle ${2:no} :exports ${3:$$(yas-choose-value
+#'("none" "code" "results" "both"))} :session
+  cat(" === $1 === \n")
+  $0
+#+end_src

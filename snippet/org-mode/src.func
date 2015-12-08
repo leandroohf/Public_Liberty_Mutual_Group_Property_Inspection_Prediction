@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: src.func
+# key: <sf
+# binding: direct-keybinding
+# --
+#key : <sb
+#name : src.block
+# --
+#+name: ${1:$$(yas/choose-value '( "exploratory" "computations" "data_mugging"))}
+#+begin_src R :tangle Rcode/$1.R :exports ${3:$$(yas-choose-value
+#'("none" "code" "results" "both"))} :session
+  cat(" === $1 === \n")
+  $0
+#+end_src
