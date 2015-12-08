@@ -1,4 +1,3 @@
-
 -*- Mode: org; mode: auto-fill; fill-column: 76 -*-
 
 #+SEQ_TODO: TODO(t) STARTED(s!) SOMEDAY(S!) WAIT(w@/!) DELEGATE(e@/!) | DONE(d!/!)  CANCELED(c@)
@@ -9,7 +8,6 @@
 
 #+TITLE:     Property_Inspection_Prediction
 #+AUTHOR:    Leandro Fernandes
-#+EMAIL:     leandro_h_fernandes@cargill.com
 #+DATE:      <2015-07-09 Thu>
 
 #+LANGUAGE:  en
@@ -404,7 +402,7 @@
 
 	#+BEGIN_SRC sh :session *Deploy* :results output
         ssh -t -o "StrictHostKeyChecking no"\
-         -i ~/.ssh/leandro-dev-ncalifornia-kaggle-competition-ami.pem \
+         -i ~/.ssh/key.pem \
          ubuntu@$INSTANCE_PUBLIC_IP 'chmod -v 700 Liberty_Mutual_Group_Property_Inspection_Prediction/config/setup.sh'
 	#+END_SRC
 
@@ -740,7 +738,7 @@
 *** winner documentaion template
 
     https://www.kaggle.com/wiki/WinningModelDocumentationTemplate
-** Pragmatic programming priciples
+** Pragmatic programming principles
 
    1. DRY: Do not repeat yourself
    2. Write shy code n Design by Contratc n Test Unit in mind
