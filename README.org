@@ -11,7 +11,6 @@
 #+DATE:      <2015-07-09 Thu>
 
 #+LANGUAGE:  en
-#+TEXT:      GTD Agenda
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:nil skip:t d:nil tags:not-in-toc
 #+INFOJS_OPT: view:overview toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+LINK_UP:
@@ -166,7 +165,7 @@
   \end{equation}
 
 
-  is improved by the function $h_k(\bold{x})$. Like
+  is improved by the function h_k(\bold{x}). Like
   any other boosting methods, GBM learn by correcting its predecessor
   $F_k(\bold{x})$.
   
