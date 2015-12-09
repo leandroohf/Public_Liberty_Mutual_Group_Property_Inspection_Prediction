@@ -237,7 +237,7 @@
 
   To avoid reinvent the wheel and simplify the entire process, we
   start by choosing the ami with the criteria ranked by priority
-  bellow:
+  below:
   
   1. *Total Cost*: < USD 10
   2. #cpu : [8 ,16]
@@ -276,8 +276,8 @@
   types. Our budget with this instance allows us to play 21h in aws
   cloud. :)
 
-  To access the web interface use the link bellow and if you need to
-  create a new key pair use the instructions bellow.
+  To access the web interface use the link below and if you need to
+  create a new key pair use the instructions below.
 
   1. Login aws console:
      https://xxxxxxxxxxxx.signin.aws.amazon.com/console/
@@ -335,7 +335,7 @@
  
 ** Install necessary packages
 
-   1. Export setup.sh script tangle code in Property_Inspection_Prediction.org
+   1. Export setup.sh script (tangle code in Property_Inspection_Prediction.org)
    
       Only if you are using emacs, org-mode and org-babel.
        
@@ -532,9 +532,9 @@
   change the number of trees (num_round) and we executed the code with
   different numbers of thread in the remote and local machine. We
   conclude that we have significant gain in time performance when we
-  execute xgboost in the cloud with 6 numbers of threads and the
-  number num_round is greater than 500 in our configuration. See the
-  graph bellow with the comparative.
+  execute xgboost in the cloud with 6 numbers threads and the number
+  num_round is greater than 500 in our configuration. See the graph
+  below with the comparative.
 
   [[file:figures/benchmark_remote_local.png]]
 
@@ -552,10 +552,10 @@
   [[file:figures/htop_remote_ami_2015-11-20%2013:48:12.png]]
   
 * Analysing leaderboard scores
-  
+
   In order to assess my relative performance and plan my next steps
   and strategy, we conducted a brief analysis of the scores of the
-  leaderboards competition and also scores which I find on the
+  leaderboards competition and also the scores which I found on the
   internet.
   
   The table below summarizes scores that I found on internet. The
@@ -610,11 +610,11 @@
   We noted that half of the top 25 in the public score were able to
   improve their rank in the private leaderboard, but in general the
   rank in public leaderboard can be very different from private
-  leaderboard. See boxplot below.
+  leaderboard. See the boxplot.
 
-  The scatterplot below shows relations of gini scores improvement and
-  rank improvement. We selected the top 100 submissions in the private
-  leaderboard for this analysis.
+  The scatterplot below shows the relations of gini scores improvement
+  and rank improvement. We selected the top 100 submissions in the
+  private leaderboard for this analysis.
     
   [[file:figures/scatter_drank_vs_dscore.png]]
 

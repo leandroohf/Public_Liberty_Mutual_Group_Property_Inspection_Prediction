@@ -39,7 +39,7 @@ build.leaderboard.dashboard <- function(prop.inspection.lb){
     dev.copy(png,'figures/boxplot_pub_scores_vs_drank.png',width=12,height=8,units="in",res=100)
     dev.off()
 
-    plot(top100.pvt.lb$dscore, top100.pvt.lb$drank, main="Liberty Mutual Group: Property Inspection Prediction Leaderboard Rank", xlab="Rank Improvement", ylab="Score Improvement")
+    plot(top100.pvt.lb$dscore, top100.pvt.lb$drank, main="Liberty Mutual Group: Property Inspection Prediction Leaderboard Rank", xlab="Score Improvement", ylab="Rank Improvement")
     abline(h = 0, col="blue", lty = 3); abline(v = 0, col="blue", lty = 3)
     points(top10.pvt.lb$dscore,top10.pvt.lb$drank, col=8, pch=19)
     points(winner$dscore,winner$drank, col="red", pch=19)
