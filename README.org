@@ -165,7 +165,7 @@
   \end{equation}
 
 
-  is improved by the function h_k(\bold{x}). Like
+  is improved by the function $h_k(\bold{x})$. Like
   any other boosting methods, GBM learn by correcting its predecessor
   $F_k(\bold{x})$.
   
