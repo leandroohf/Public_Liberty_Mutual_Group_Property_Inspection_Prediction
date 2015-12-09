@@ -1,2 +1,5 @@
-# Public_Liberty_Mutual_Group_Property_Inspection_Prediction
-1rst Kaggle Competittion
+# Liberty Mutual Group Property Inspection Prediction
+
+  **1rst Kaggle Competittion**	
+
+  Read: *Property_Inspection_Prediction.org*
