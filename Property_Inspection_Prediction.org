@@ -634,11 +634,12 @@
   track the time I spent in every task. The tasks on this project were
   classified:
 
-  * DOC: Time spent writing documentation and taking notes
-  * MODELLING: Time spent analyzing, modeling and planning the next steps
-  * DATA: Time spent in preparing the data for analysis
-  * PROG: Time spent implementing and refactoring the code
-  * STUDY: Time spent studying libraries and machine learning’s algorithms
+  * DOC (28%): Time spent writing documentation and taking notes
+  * MODELLING (20%): Time spent analyzing, modeling and planning the next steps
+  * DATA (3%): Time spent in preparing the data for analysis
+  * PROG (26%): Time spent implementing and refactoring the code
+  * STUDY (23%): Time spent studying libraries and machine learning’s
+    algorithms
 
   [[file:figures/time_spent.png]]
  
