@@ -223,14 +223,14 @@
 
   I installed the command line AWS cli tools on my local machine
   (https://aws.amazon.com/cli/). I found a interesting blog
-  (http://howardism.org/Technical/Emacs/literate-devops.html) about
-  how to deploy my code using Emacs + org-mode
-  (org-babel:http://orgmode.org/worg/org-contrib/babel/). The process
-  is known as literate +programming+ deployment. This make the life
-  really easy, because automatizes the entire process to deploy the
-  code on aws cloud service and also provide a better documentation of
-  the entire deployment process. Also Emacs has a nice mode called
-  TRAMP that can be used to edit remote files like a local file
+  (http://howardism.org/Technical/Emacs/literate-devops.html) about how to
+  deploy my code using Emacs + org-mode
+  (org-babel:http://orgmode.org/worg/org-contrib/babel/). The process is
+  known as literate +programming+ deployment. *This make the life really*
+  *easy, because automatizes the entire process to deploy the code on aws
+  cloud service and also provide a better documentation of the entire*
+  *deployment process*. Also Emacs has a nice mode called TRAMP that can be
+  used to edit remote files like a local file
   (http://www.emacswiki.org/emacs/TrampMode).
 
   To avoid reinvent the wheel and simplify the entire process, we
@@ -266,16 +266,15 @@
      3. pricing: 0.478/hour => 21h
 	
   Based on the criteria, we chose the community ami instance
-  (*Compute-Optimized*) anaconda-2.3.0-on-ubuntu-14.04-lts
-  -ami-31b27375 (Thanks to anaconda project:
-  http://docs.continuum.io/anaconda/images). Compute-Optimized
-  instances have a higher ratio of vCPUs to memory than other families
-  and the *lowest cost per vCPU* of all the Amazon EC2 instance
-  types. Our budget with this instance allows us to play 21h in aws
-  cloud. :)
+  (*Compute-Optimized*) anaconda-2.3.0-on-ubuntu-14.04-lts -ami-31b27375
+  (Thanks to anaconda project:
+  http://docs.continuum.io/anaconda/images). Compute-Optimized instances
+  have a higher ratio of vCPUs to memory than other families and the *lowest
+  cost per vCPU* of all the Amazon EC2 instance types. Our budget with this
+  instance allows us to play 21h in aws cloud. :)
 
-  To access the web interface use the link below and if you need to
-  create a new key pair use the instructions below.
+  To access the web interface use the link below and if you need to create a
+  new key pair use the instructions below.
 
   1. Login aws console:
      https://xxxxxxxxxxxx.signin.aws.amazon.com/console/
@@ -292,9 +291,9 @@
    chmod 400 ~/.ssh/key.perm
   #+END_SRC
 
-  The deployment process will be explained in the next sections. You
-  can run the code inside the emacs with C-c C-c or you can use emacs
-  to build and save
+  The deployment process will be explained in the next sections. You can run
+  the code inside the emacs with C-c C-c or you can use emacs to build and
+  save
 
 ** Load anaconda ami in N. California
    
