@@ -165,9 +165,8 @@
   \end{equation}
 
 
-  is improved by the function $h_k(\bold{x})$. Like
-  any other boosting methods, GBM learn by correcting its predecessor
-  $F_k(\bold{x})$.
+  is improved by the function $h_k(\bold{x})$. Like any other boosting
+  methods, GBM learn by correcting its predecessor $F_k(\bold{x})$.
   
   We chose XGBoost which is a parallel implementation of GBM, because
   it is very popular in Kaggle competitions and allow us run GBM
@@ -238,19 +237,19 @@
   start by choosing the ami with the criteria ranked by priority
   below:
   
-  1. *Total Cost*: < USD 10
-  2. #cpu : [8 ,16]
-  3. Memory RAM: 2GB
-  4. Sytems similar to development environment (my local machine)
-     1. with pre-installed tools:
-	1. python and pip (same version or similar of my local
-           machine)
-	2. scikit-learn, pandas and numpy
-	3. jason and zipfile
-	4. command make
-     2. Easy to install xgboost
-  5. Storage: 8GB (The minimum will be enough)
-  6. Networking requirements: low
+  * *Total Cost*: < USD 10
+  * #cpu : [8 ,16]
+  * Memory RAM: 2GB
+  * Sytems similar to development environment (my local machine)
+    + with pre-installed tools:
+      1. python and pip (same version or similar of my local
+         machine)
+      2. scikit-learn, pandas and numpy
+      3. json and zipfile
+      4. command make
+    + Easy to install xgboost
+  * Storage: 8GB (The minimum will be enough)
+  * Networking requirements: low
      
   Instances candidates:
   1. m3.2xlarge
