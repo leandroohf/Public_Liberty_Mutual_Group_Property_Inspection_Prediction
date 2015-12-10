@@ -324,7 +324,7 @@
 
      #+END_SRC
 
-   *PS: You need to wait the instance booting. This take 1 minte*
+   *PS: You need to wait the instance booting. This take 1 minute*
 
    #+BEGIN_SRC sh :session *Deploy* :results output
     # Get instance public ip
@@ -556,12 +556,12 @@
   leaderboards competition and also the scores which I found on the
   internet.
   
-  The table below summarizes scores that I found on internet. The
-  difference of my best score and the winner score is only 2.2%, but I
-  did only 18 submissions (The winner did 232 submissions) because of
-  the amount of time that I had to spend on the competition. This
-  suggest that I have to spend much much more time to have any chance
-  to win a competition or at least end in the 25% tail.
+  The table below summarizes scores that I found on internet.  *The
+  difference of my best score and the winner score is only 2.2%, but I did*
+  *only 18 submissions (The winner did 232 submissions) because of the
+  amount of time that I had to spend on the competition*. This suggest that
+  I have to spend much much more time to have any chance to win a
+  competition or at least end in the 25% tail.
     
   | Model                |   public |  private | Desc                                   | link   |
   |----------------------+----------+----------+----------------------------------------+--------|
@@ -641,10 +641,10 @@
 
   [[file:figures/time_spent.png]]
  
-  It is interesting to note, thanks to Kaggle's good job, I only spent
-  3% of the time preparing the data. Normally, I spend 60% up to 80%
-  of the time with data processing: acquiring, decide which data to
-  collect or use, preparing, cleaning and dealing with missing values.
+  It is interesting to note, thanks to Kaggle's good job, *I only spent 3%*
+  *of the time preparing the data. Normally, I spend 60% up to 80% of the
+  time with data processing*: acquiring, decide which data to collect or
+  use, preparing, cleaning and dealing with missing values*.
 
   It is clear the necessity to save code for the next competitions and
   I expect as the amount of time I spend studying will be
@@ -655,10 +655,10 @@
   
 * Conclusion
 
-  In general kaggle competitions is a good way to learn, try and test
-  new machine learning algorithms.
+  In general, kaggle competitions is a good way to learn, try and test new
+  machine learning algorithms.
 
-  * What I haven't used 
+  * What I haven't used
     * I should have used Cross Validation: Grid Search or Randomized
       Search to tune up parameters and save time
     * I should have spent more time designing training data and
