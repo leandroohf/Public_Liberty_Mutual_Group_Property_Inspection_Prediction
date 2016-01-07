@@ -293,7 +293,7 @@
 
   The deployment process will be explained in the next sections. You can run
   the code inside the emacs with C-c C-c or you can use emacs to build and
-  save
+  save the bash script for you.
 
 ** Load anaconda ami in N. California
    
