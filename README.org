@@ -36,7 +36,7 @@
 
 * Introduction
   
-  My first kaggle competion
+  My first kaggle competition
   
   https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction
 
